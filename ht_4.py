@@ -10,20 +10,20 @@
 # print('Задача 20')
 #
 #
-# n = int(input('Введите n --> '))
-# m = int(input('Введите m --> '))
-#
-# list1 = [input(f'{i+1} ---> ') for i in range(n)]
-# print('\n')
-# list2 = [input(f'{i+1} ---> ') for i in range(m)]
-#
-# set1 = set(list1)
-# set2 = set(list2)
-#
-# newlist = list(set1&set2)
-# newlist.sort()
-#
-# print(*newlist)
+n = int(input('Введите n --> '))
+m = int(input('Введите m --> '))
+
+list1 = [input(f'{i+1} ---> ') for i in range(n)]
+print('\n')
+list2 = [input(f'{i+1} ---> ') for i in range(m)]
+
+set1 = set(list1)
+set2 = set(list2)
+
+newlist = list(set1&set2)
+newlist.sort()
+
+print(*newlist)
 
 
 # ----------------------------------------------------------------------------------------------------
